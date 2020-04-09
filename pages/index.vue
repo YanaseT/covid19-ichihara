@@ -15,7 +15,7 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      url="http://www.pref.toyama.jp/cms_sec/1205/kj00021473.html"
+      url="https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/soudan/index.html"
       target="_blank"
       :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
       :btn-text="$t('相談の手順を見る')"
@@ -83,7 +83,7 @@ export default Vue.extend({
       Data,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: this.$t('県内の最新感染動向')
+        title: this.$t('市原市内の最新感染動向')
       },
       newsItems: News.newsItems
     }
@@ -96,7 +96,7 @@ export default Vue.extend({
   // },
   head(): MetaInfo {
     return {
-      title: this.$t('県内の最新感染動向') as string
+      title: this.$t('市原市内の最新感染動向') as string
     }
   }
 })
