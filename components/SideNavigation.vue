@@ -13,11 +13,11 @@
           <img
             class="SideNavigation-HeaderLogo"
             src="/logo.png"
-            :alt="$t('富山県')"
+            :alt="$t('市原市')"
           />
           <div class="SideNavigation-HeaderText">
             {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('対策サイト(富山県公認)')
+              $t('対策サイト(非公式)')
             }}
           </div>
         </nuxt-link>
@@ -48,19 +48,19 @@
 
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
-          <!-- <a
-            href="https://line.me/R/ti/p/%40822sysfc"
+          <a
+            href="https://line.me/R/ti/p/fMyGtKyWaK"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
           >
             <picture>
               <source srcset="/line.webp" type="image/webp" />
               <img src="/line.png" alt="LINE" />
             </picture>
-          </a> -->
+          </a>
           <a
-            href="https://twitter.com/stopcovidtoyama"
+            href="https://twitter.com/ichihara_city"
             target="_blank"
             rel="noopener"
             class="SideNavigation-SocialLink"
@@ -82,7 +82,7 @@
             </picture>
           </a> -->
           <a
-            href="https://github.com/Terachan0117/covid19-toyama"
+            href="https://github.com/YanaseT/covid19-ichihara"
             target="_blank"
             rel="noopener"
             class="SideNavigation-SocialLink"
@@ -93,7 +93,7 @@
             </picture>
           </a>
         </div>
-        <small class="SideNavigation-Copyright">
+        <!--<small class="SideNavigation-Copyright">
           {{ $t('内容物は') }}
           <a
             :href="$t('https://creativecommons.org/licenses/by/4.0/deed.ja')"
@@ -114,7 +114,7 @@
             {{ $t('Terachan') }}
           </a>
           All Rights Reserved.
-        </small>
+        </small>-->
       </footer>
     </div>
   </div>
@@ -149,30 +149,40 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('県内の最新感染動向'),
+          title: this.$t('市原市内の最新感染動向'),
           link: this.localePath('/')
         },
         {
           icon: 'CovidIcon',
           title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: 'http://www.pref.toyama.jp/cms_sec/1205/kj00021473.html',
+          link:
+            'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/soudan/index.html',
           divider: true
         },
-        {
-          icon: 'ParentIcon',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: 'http://www.pref.toyama.jp/sections/1118/virus/index.html#2'
-        },
+        // {
+        //  icon: 'ParentIcon',
+        //  title: this.$t('お子様をお持ちの皆様へ'),
+        //  link: 'http://www.pref.toyama.jp/sections/1118/virus/index.html#2'
+        // },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('県民の皆様へ'),
-          link: 'http://www.pref.toyama.jp/sections/1118/virus/index.html#3'
+          title: this.$t('市原市民の皆様へ'),
+          link:
+            'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/index.html?fbclid=IwAR1SiHPbdm_YZDyucoj2aDY1YZdJrB68lhjx8Q_QLB_npPks_KmsScUuFlo'
         },
         {
           icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: 'http://www.pref.toyama.jp/sections/1118/virus/index.html#5',
-          divider: true
+          title: this.$t('新型コロナウイルス感染症に関する企業への支援'),
+          link:
+            'https://www.city.ichihara.chiba.jp/kanko/0205sangyou/shouchu/covid-19_kigyousien/index.html'
+        },
+        {
+          icon: ' mdiHomeAlert',
+          title: this.$t(
+            '新型コロナウイルス感染症の影響による休業などで生活にお困りの方へ'
+          ),
+          link:
+            'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/support/kashitsuke.html'
         },
         // {
         //   title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
@@ -180,12 +190,14 @@ export default Vue.extend({
         //     'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
         // },
         {
-          title: this.$t('富山県主催等 中止又は延期するイベント等'),
-          link: 'http://www.pref.toyama.jp/sections/1118/virus/index.html#4'
+          title: this.$t('市原市主催等 中止又は延期するイベント等'),
+          link:
+            'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/event/index.html'
         },
         {
-          title: this.$t('知事からのメッセージ'),
-          link: 'http://www.pref.toyama.jp/cms_sec/1118/kj00021812-004-01.html'
+          title: this.$t('市原市長からのメッセージ'),
+          link:
+            'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/mayor_message.html'
         },
         {
           title: this.$t('当サイトについて'),
@@ -196,8 +208,8 @@ export default Vue.extend({
         //   link: this.localePath('/contacts')
         // }
         {
-          title: this.$t('富山県公式ホームページ'),
-          link: 'http://www.pref.toyama.jp/'
+          title: this.$t('市原市公式ホームページ'),
+          link: 'https://www.city.ichihara.chiba.jp/index.html'
         }
       ]
     }
@@ -323,7 +335,7 @@ export default Vue.extend({
   @include lessThan($small) {
     width: 130px;
   }
-  
+
   @include lessThan($tiny) {
     width: 100px;
   }
