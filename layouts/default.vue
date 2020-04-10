@@ -1,12 +1,12 @@
 <template>
   <v-app class="app">
-    <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
+    <v-overlay v-show="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
         <img src="/logo.png" alt="市原市" />
         <scale-loader color="#00A040" />
       </div>
     </v-overlay>
-    <div v-if="hasNavigation" class="appContainer">
+    <div v-show="hasNavigation" class="appContainer">
       <div class="naviContainer">
         <SideNavigation
           :is-navi-open="isOpenNavigation"
@@ -21,11 +21,11 @@
         </v-container>
       </main>
     </div>
-    <div v-else class="embed">
+    <!--<div v-else class="embed">
       <v-container>
         <nuxt />
       </v-container>
-    </div>
+    </div>-->
     <NoScript />
     <development-mode-mark />
   </v-app>
