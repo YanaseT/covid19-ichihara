@@ -93,8 +93,8 @@
             </picture>
           </a>
         </div>
-        <!--<small class="SideNavigation-Copyright">
-          {{ $t('内容物は') }}
+        <small class="SideNavigation-Copyright">
+          {{ $t('このサイトの内容物は') }}
           <a
             :href="$t('https://creativecommons.org/licenses/by/4.0/deed.ja')"
             target="_blank"
@@ -107,14 +107,14 @@
           <br />
           2020
           <a
-            :href="$t('https://tera-chan.com')"
+            :href="$t('https://twitter.com/shelovesnicolas')"
             target="_blank"
             class="SideNavigation-Link"
           >
-            {{ $t('Terachan') }}
+            {{ $t('男子大学生のニコラス') }}
           </a>
-          All Rights Reserved.
-        </small>-->
+          All Rights Reserved. </small
+        >-->
       </footer>
     </div>
   </div>
