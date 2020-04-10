@@ -36,7 +36,7 @@
       <nav class="SideNavigation-Menu">
         <MenuList :items="items" @click="$emit('closeNavi', $event)" />
         <div
-          v-if="this.$i18n.locales.length > 1"
+          v-show="this.$i18n.locales.length > 1"
           class="SideNavigation-Language"
         >
           <!-- <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
