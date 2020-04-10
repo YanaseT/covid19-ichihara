@@ -171,13 +171,13 @@ export default Vue.extend({
             'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/index.html?fbclid=IwAR1SiHPbdm_YZDyucoj2aDY1YZdJrB68lhjx8Q_QLB_npPks_KmsScUuFlo'
         },
         {
-          icon: 'mdi-domain',
+          icon: 'mdi-office-building',
           title: this.$t('新型コロナウイルス感染症に関する企業への支援'),
           link:
             'https://www.city.ichihara.chiba.jp/kanko/0205sangyou/shouchu/covid-19_kigyousien/index.html'
         },
         {
-          icon: ' mdiHomeAlert',
+          icon: 'mdi-home-alert',
           title: this.$t(
             '新型コロナウイルス感染症の影響による休業などで生活にお困りの方へ'
           ),
@@ -190,11 +190,13 @@ export default Vue.extend({
         //     'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
         // },
         {
+          icon: 'mdi-calendar-alert',
           title: this.$t('市原市主催等 中止又は延期するイベント等'),
           link:
             'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/event/index.html'
         },
         {
+          icon: 'mdi-bullhorn',
           title: this.$t('市原市長からのメッセージ'),
           link:
             'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/mayor_message.html'
