@@ -6,7 +6,7 @@
         <scale-loader color="#00A040" />
       </div>
     </v-overlay>
-    <div v-show="hasNavigation" class="appContainer">
+    <div v-if="hasNavigation" class="appContainer">
       <div class="naviContainer">
         <SideNavigation
           :is-navi-open="isOpenNavigation"
@@ -21,11 +21,11 @@
         </v-container>
       </main>
     </div>
-    <!--<div v-else class="embed">
+    <div v-else class="embed">
       <v-container>
         <nuxt />
       </v-container>
-    </div>-->
+    </div>
     <NoScript />
     <development-mode-mark />
   </v-app>
