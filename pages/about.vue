@@ -6,28 +6,36 @@
     <StaticCard>
       <i18n
         tag="p"
-        path="当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、富山県が提供しているデータを元に{authorWebsite}が開設したものです。"
+        path="当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、市原市が提供しているデータを元に{authorWebsite}が開設したものです。"
       >
         <a
-          href="https://tera-chan.com"
+          href="https://twitter.com/shelovesnicolas"
           target="_blank"
           rel="noopener"
           place="authorWebsite"
         >
-          {{ $t('Terachan') }}
+          {{ $t('男子大学生のニコラス') }}
         </a>
       </i18n>
       <br />
       {{
         $t(
-          '2020/04/08より富山県の公認サイトとなりました。運営は引き続き有志が行っています。'
+          '当サイトは{blogwebsite}を運営する市内在住の大学生により運営される非公式サイトです。'
         )
       }}
+      <a
+        href="https://ichihara.nicolas.love"
+        target="_blank"
+        rel="noopener"
+        place="blogWebsite"
+      >
+        {{ $t('地域情報サイト市原市情報センター') }}
+      </a>
       <br />
       <br />
       {{
         $t(
-          '富山県による公式情報と客観的な数値をわかりやすく伝えることで、富山県にお住まいの方や、富山県内に拠点を持つ企業の方、富山県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
+          '市原市による公式情報と客観的な数値をわかりやすく伝えることで、市原市にお住まいの方や、市原市内に拠点を持つ企業の方、市原市を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
         )
       }}
       <p class="StaticCard-Note">
@@ -220,7 +228,7 @@
         }}
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <a
-            href="https://github.com/Terachan0117/covid19-toyama"
+            href="https://github.com/YanaseT/covid19-ichihara"
             target="_blank"
             rel="noopener"
             place="githubRepo"
@@ -237,12 +245,12 @@
         path="当サイトに関するお問合わせは{contactWebsite}にて受け付けています。"
       >
         <a
-          href="https://tera-chan.com/contact.html"
+          href="https://ichihara.nicolas.love/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b/"
           target="_blank"
           rel="noopener"
           place="contactWebsite"
         >
-          {{ $t('Contact | Terachan Official Site') }}
+          {{ $t('お問い合わせ | 地域情報サイト市原市情報センター') }}
         </a>
       </i18n>
     </StaticCard>
