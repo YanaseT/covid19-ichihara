@@ -2,7 +2,7 @@
   <v-app class="app">
     <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
-        <img src="/logo.png" alt="富山県" />
+        <img src="/logo.png" alt="市原市" />
         <scale-loader color="#00A040" />
       </div>
     </v-overlay>
@@ -87,14 +87,14 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19-toyama.netlify.com${this.$route.path}`
+          href: `https://covid19-ichihara.netlify.com${this.$route.path}`
         }
       ],
       meta: [
         {
           hid: 'author',
           name: 'author',
-          content: this.$tc('富山県')
+          content: this.$tc('市原市')
         },
         {
           hid: 'description',
@@ -107,7 +107,7 @@ export default Vue.extend({
           hid: 'og:site_name',
           property: 'og:site_name',
           content:
-            this.$t('富山県') +
+            this.$t('市原市') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
@@ -116,7 +116,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://stopcovid19-toyama.netlify.com${this.$route.path}`
+          content: `https://covid19-ichihara.netlify.com${this.$route.path}`
         },
         {
           hid: 'og:locale',
@@ -127,7 +127,7 @@ export default Vue.extend({
           hid: 'og:title',
           property: 'og:title',
           content:
-            this.$t('富山県') +
+            this.$t('市原市') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
@@ -149,7 +149,7 @@ export default Vue.extend({
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
           content:
-            this.$t('富山県') +
+            this.$t('市原市') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
