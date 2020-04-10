@@ -13,7 +13,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s | 富山県 新型コロナウイルス感染症対策サイト',
+    titleTemplate: '%s | 市原市 新型コロナウイルス感染症対策サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,23 +21,23 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19-toyama.netlify.com/'
+        content: 'https://covid19-ichihara.netlify.com/'
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '富山県 新型コロナウイルス感染症対策サイト'
+        content: '市原市 新型コロナウイルス感染症対策サイト'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは富山県新型コロナウイルス感染症（COVID-19）に関する最新情報サイトです。'
+          '当サイトは市原市新型コロナウイルス感染症（COVID-19）に関する最新情報サイトです。'
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://raw.githubusercontent.com/Terachan0117/covid19-toyama/development/static/ogp.png'
+        content: 'https://covid-19-ichihara.netlofy.com/static/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -47,17 +47,18 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@terachan_0117'
+        content: '@shelovesnicolas'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@terachan_0117'
+        content: '@shelovesnicolas'
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://raw.githubusercontent.com/Terachan0117/covid19-toyama/development/static/ogp.png'
+        content:
+          'https://raw.githubusercontent.com/Terachan0117/covid19-toyama/development/static/ogp.png'
       },
       {
         hid: 'note:card',
@@ -131,7 +132,7 @@ const config: Configuration = {
     }
   },
   googleAnalytics: {
-    id: 'UA-93021756-8'
+    id: 'UA-163322648-1'
   },
   build: {
     postcss: {
@@ -154,7 +155,7 @@ const config: Configuration = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '富山県 新型コロナウイルス感染症対策サイト',
+    name: '市原市 新型コロナウイルス感染症対策サイト',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',
