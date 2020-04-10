@@ -7,7 +7,9 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="'http://opendata.pref.toyama.jp/dataset/covid19/resource/f3cd8c90-bf77-4072-96a3-96bd5942ff20'"
+      :url="
+        'https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/about/kanja.html'
+      "
     />
   </v-col>
 </template>
@@ -29,12 +31,21 @@ export default {
     const patientsTable = formatTable(Data.patients.data)
 
     const sumInfoOfPatients = {
+      lText: patientsGraph[
+        patientsGraph.length - 1
+      ].cumulative.toLocaleString(),
+      sText: this.$t('{date}の累計', {
+        date: patientsGraph[patientsGraph.length - 1].label
+      }),
+      unit: this.$t('人')
+    }
+    /* const sumInfoOfPatients = {
       lText: Data['patients']['data'].length,
       sText: this.$t('{date} までの累計', {
         date: Data['patients']['date']
       }),
       unit: this.$t('人')
-    }
+    } */
 
     // 陽性患者の属性 ヘッダー翻訳
     for (const header of patientsTable.headers) {
