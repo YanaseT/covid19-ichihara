@@ -335,7 +335,6 @@ export default Vue.extend({
   @include lessThan($small) {
     width: 130px;
   }
-
   @include lessThan($tiny) {
     width: 100px;
   }
