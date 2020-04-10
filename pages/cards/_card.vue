@@ -139,7 +139,7 @@ export default {
     return data
   },
   head() {
-    const url = 'https://stopcovid19-toyama.netlify.com/'
+    const url = 'https://covid19-ichihara.netlify.com/'
     const timestamp = new Date().getTime()
     const ogpImage =
       this.$i18n.locale === 'ja'
@@ -163,7 +163,7 @@ export default {
           content:
             this.title +
             ' | ' +
-            this.$t('富山県') +
+            this.$t('市原市') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             this.$t('対策サイト')
@@ -182,7 +182,7 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://raw.githubusercontent.com/Terachan0117/covid19-toyama/development/static/ogp.png'
+            'https://raw.githubusercontent.com/YanaseT/covid19-ichihara/development/static/ogp.png'
         },
         {
           hid: 'twitter:image',
