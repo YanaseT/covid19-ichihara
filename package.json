@@ -1,8 +1,8 @@
 {
   "name": "stopcovid19-toyama",
   "version": "1.0.0",
-  "description": "富山県 新型コロナウイルス感染症対策サイト",
-  "author": "富山県",
+  "description": "市原市 新型コロナウイルス感染症対策サイト(非公式)",
+  "author": "市原市",
   "private": true,
   "engines": {
     "node": ">=10.19.0"
