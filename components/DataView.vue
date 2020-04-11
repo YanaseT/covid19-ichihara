@@ -32,7 +32,8 @@
               target="_blank"
               rel="noopener"
             >
-              {{$t('[コロナウィルス関連データ]富山県HP(')}}{{url}}{{$t(')を元に作成')}}
+              {{ $t('[コロナウィルス関連データ]市原市HP(') }}{{ url
+              }}{{ $t(')を元に作成') }}
               <v-icon
                 class="ExternalLinkIcon"
                 size="15"
