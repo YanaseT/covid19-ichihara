@@ -37,7 +37,8 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://covid19-ichihara.netlify.com/ogp.png'
+        content:
+          'https://raw.githubusercontent.com/YanaseT/covid19-ichihara/development/static/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -57,7 +58,8 @@ const config: Configuration = {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://covid19-ichihara.netlify.com/ogp.png'
+        content:
+          'https://raw.githubusercontent.com/YanaseT/covid19-ichihara/development/static/ogp.png'
       },
       {
         hid: 'note:card',
