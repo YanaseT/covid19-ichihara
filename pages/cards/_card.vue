@@ -181,7 +181,8 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://covid19-ichihara.netlify.com/ogp.png'
+          content:
+            'https://raw.githubusercontent.com/YanaseT/covid19-ichihara/development/static/ogp.png'
         },
         {
           hid: 'twitter:image',
