@@ -26,13 +26,13 @@ const config: Configuration = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '市原市 新型コロナウイルス感染症対策サイト'
+        content: '市原市 新型コロナウイルス感染症対策サイト(非公式)'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは市原市新型コロナウイルス感染症（COVID-19）に関する最新情報サイトです。'
+          '当サイトは市原市新型コロナウイルス感染症（COVID-19）に関する最新情報サイト(非公式)です。'
       },
       {
         hid: 'og:image',
