@@ -4,7 +4,7 @@
 
 [![市原市 新型コロナウイルス感染症対策サイト]
 [(/static/readichihara.png)]
-(https://covid19-ichihara.netlify.com/)
+(リンク:https://covid19-ichihara.netlify.com/)
 ## 行動原則
 詳しくは[サイト構築にあたっての行動原則](./CODE_OF_CONDUCT.md)を御覧ください。
 
