@@ -18,19 +18,19 @@
         </a>
       </i18n>
       <br />
-      {{
-        $t(
-          '当サイトは{blogWebsite}を運営する市内在住の大学生により運営される非公式サイトです。'
-        )
-      }}
-      <a
-        href="https://ichihara.nicolas.love"
-        target="_blank"
-        rel="noopener"
-        place="blogWebsite"
+      <i18n
+        tag="p"
+        path="当サイトは{blogWebsite}を運営する市内在住の大学生により運営される非公式サイトです。"
       >
-        {{ $t('地域情報サイト市原市情報センター') }}
-      </a>
+        <a
+          href="https://ichihara.nicolas.love"
+          target="_blank"
+          rel="noopener"
+          place="blogWebsite"
+        >
+          {{ $t('地域情報サイト市原市情報センター') }}
+        </a>
+      </i18n>
       <br />
       <br />
       {{
