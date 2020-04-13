@@ -45,7 +45,7 @@
  */
 
 /*!
- * vue-i18n v8.15.4 
+ * vue-i18n v8.17.0 
  * (c) 2020 kazuya kawaguchi
  * Released under the MIT License.
  */
@@ -55,9 +55,3 @@
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
-
-/**
-  * vue-class-component v7.2.3
-  * (c) 2015-present Evan You
-  * @license MIT
-  */
