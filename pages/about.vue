@@ -206,7 +206,7 @@
       <h3>{{ $t('データについて') }}</h3>
       <i18n
         tag="p"
-        path="当サイトで公表しているデータは、市原市が{catalogWebsite}にて提供しているデータを元にしていますが、必ずしも正確・完全なものとは限りません。当サイトの表示内容について、富山県への直接の問合せは行わないでください。"
+        path="当サイトで公表しているデータは、市原市が{catalogWebsite}にて提供しているデータを元にしていますが、必ずしも正確・完全なものとは限りません。当サイトの表示内容について、市原市への直接の問合せは行わないでください。"
       >
         <a
           href="https://www.city.ichihara.chiba.jp/kenko/iryo_kansensyou/kansensyouyobou/covid-19/about/kanja.html"
