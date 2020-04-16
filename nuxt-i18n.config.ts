@@ -9,7 +9,7 @@ export default {
     fallbackLocale: 'ja',
     formatFallbackMessages: true
   },
-  // vueI18nLoader: true,
+  vueI18nLoader: true,
   lazy: true,
   langDir: 'assets/locales/',
   locales: [
