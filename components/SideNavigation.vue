@@ -123,7 +123,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import { TranslateResult } from 'vue-i18n'
-// import LanguageSelector from '@/components/LanguageSelector.vue'
+import LanguageSelector from '@/components/LanguageSelector.vue'
 import MenuList from '@/components/MenuList.vue'
 
 type Item = {
@@ -135,7 +135,7 @@ type Item = {
 
 export default Vue.extend({
   components: {
-    // LanguageSelector,
+    LanguageSelector,
     MenuList
   },
   props: {
