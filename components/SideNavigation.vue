@@ -39,10 +39,10 @@
           v-show="this.$i18n.locales.length > 1"
           class="SideNavigation-Language"
         >
-          <!-- <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
+          <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
             {{ $t('多言語対応選択メニュー') }}
           </label>
-          <LanguageSelector /> -->
+          <LanguageSelector />
         </div>
       </nav>
 
