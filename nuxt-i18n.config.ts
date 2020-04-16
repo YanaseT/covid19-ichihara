@@ -9,7 +9,7 @@ export default {
     fallbackLocale: 'ja',
     formatFallbackMessages: true
   },
-  // vueI18nLoader: true,
+  vueI18nLoader: true,
   lazy: true,
   langDir: 'assets/locales/',
   locales: [
@@ -20,7 +20,7 @@ export default {
       file: 'ja.json',
       description: 'Japanese'
     },
-    {
+    /* {
       code: 'en',
       name: 'English',
       iso: 'en-US',
@@ -47,7 +47,7 @@ export default {
       iso: 'ko-KR',
       file: 'ko.json',
       description: 'Korean'
-    },
+    }, */
     {
       code: 'pt-BR',
       name: 'Portuguese',
