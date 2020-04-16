@@ -21,7 +21,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://covid19-ichihara.netlify.com/'
+        content: 'https://covid19-ichihara.netlify.app/'
       },
       {
         hid: 'og:title',
@@ -58,7 +58,7 @@ const config: Configuration = {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://covid19-ichihara.netlify.com/ogp.png'
+        content: 'https://covid19-ichihara.netlify.app/ogp.png'
       },
       {
         hid: 'note:card',

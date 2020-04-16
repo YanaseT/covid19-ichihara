@@ -87,7 +87,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://covid19-ichihara.netlify.com${this.$route.path}`
+          href: `https://covid19-ichihara.netlify.app${this.$route.path}`
         }
       ],
       meta: [
@@ -116,7 +116,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://covid19-ichihara.netlify.com${this.$route.path}`
+          content: `https://covid19-ichihara.netlify.app${this.$route.path}`
         },
         {
           hid: 'og:locale',
