@@ -1,8 +1,8 @@
 {
-  "name": "stopcovid19-toyama",
+  "name": "covid19-ichihara",
   "version": "1.0.0",
   "description": "市原市 新型コロナウイルス感染症対策サイト(非公式)",
-  "author": "市原市",
+  "author": "男子大学生のニコラス",
   "private": true,
   "engines": {
     "node": ">=10.19.0"
