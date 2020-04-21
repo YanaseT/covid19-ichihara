@@ -3,7 +3,7 @@ type DataType = {
   value: number
   children: [
     {
-      attr: '陽性患者数'
+      attr: '陽性判明者数'
       value: number
       children: [
         {

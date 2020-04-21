@@ -91,7 +91,7 @@ export default {
         updatedAt = Data.inspection_status_summary.date
         break
       case 'number-of-confirmed-cases':
-        title = this.$t('陽性患者数')
+        title = this.$t('陽性判明者数')
         updatedAt = Data.patients_summary.date
         break
       case 'attributes-of-confirmed-cases':
