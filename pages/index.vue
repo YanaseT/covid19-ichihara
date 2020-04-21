@@ -23,6 +23,14 @@
       :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
       :btn-text="$t('相談の手順を見る')"
     />
+    <static-info
+      class="mb-4"
+      :text="
+        $t(
+          '当サイトは約15分に一度、自動で市原市のホームページ上の情報の確認を行っています。'
+        )
+      "
+    />
     <v-row class="DataBlock">
       <!--<tested-cases-details-card />-->
       <confirmed-cases-attributes-card />
