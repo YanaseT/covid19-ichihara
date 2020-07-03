@@ -16,7 +16,7 @@ type DataType = {
   年代: string | null
   性別: '男性' | '女性' | string
   職業: string | null
-  // 退院: '◯' | null
+  退院: '◯' | null
   [key: string]: any
 }
 
